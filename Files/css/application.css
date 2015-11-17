@@ -1,11 +1,13 @@
 html, body {
 	background-color: #3f4042;
 	height: 100%;
+	overflow-x: hidden;
 }
 
 header {
 	background-color: #37bbd2;
 	height: 100px;
+	margin-bottom: 3px;
 }
 
 .title {
@@ -20,6 +22,8 @@ header {
 .container-fluid {
 	padding-right: 0;
     padding-left: 0;
+    margin-left:-4px;
+    margin-right:-4px;
 }
 
 .arrow {
@@ -116,6 +120,7 @@ p {
 	display: flex;
     align-items: center;
     padding-bottom: 60px;
+    margin:3px;
 }
 
 .little-spec {
@@ -124,6 +129,7 @@ p {
 	display: flex;
     align-items: center;
     padding-bottom: 60px;
+    margin:3px;
 }
 
 .big {
@@ -132,26 +138,7 @@ p {
 	display: flex;
     align-items: center;
     padding-bottom: 60px;
-}
-
-.m-right {
-	margin-right: 6px;
-}
-
-.m-right-spec {
-	margin-right: 3px;
-}
-
-.m-left-spec {
-	margin-left: 3px;
-}
-
-.m-bot {
-	margin-bottom: 6px;
-}
-
-.m-top {
-	margin-top: 6px;
+    margin:3px;
 }
 
 .img-center {
@@ -176,28 +163,11 @@ p {
 }
 
 @media (max-width: 991px) {
-	.m-right {
-	margin-right: 0;
-	}
-
-	.m-right-spec {
-	margin-right: 0;
-	}
-
-	.m-left-spec {
-	margin-left: 0;
-	}
-
-	.m-bot {
-	margin-bottom: 0;
-	}
-
-	.m-top {
-	margin-top: 0;
-	}
-
 	.col-md-4, .col-md-6, .col-md-12, header {
-	margin-bottom: 6px;
-}
-}
+		margin-bottom: 3px;
+	}
 
+	.little, .little-spec, .big {
+		margin-bottom: 6px;
+	}
+}
