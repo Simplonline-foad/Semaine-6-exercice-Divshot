@@ -29,10 +29,11 @@ header {
 .arrow {
 	display: inline-block;
 	float: right;
-	margin:20px;
+	margin-right: 15px;
+	margin-top: 24px;
 	width: 15px;
 	height: 15px;
-	margin-top: 24px;
+
     background: url(../img/arrow01.png);
     background-size: 15px 15px;
     background-repeat: no-repeat;
