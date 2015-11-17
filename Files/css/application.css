@@ -1,0 +1,198 @@
+html, body {
+	background-color: #3f4042;
+	height: 100%;
+}
+
+header {
+	background-color: #37bbd2;
+	height: 100px;
+}
+
+.title {
+	padding: 20px;
+}
+
+.img-header {
+	width: 60px;
+	float:left;
+}
+
+.arrow {
+	display: inline-block;
+	float: right;
+	margin:20px;
+	width: 15px;
+	height: 15px;
+	margin-top: 24px;
+    background: url(../img/arrow01.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.thin {
+	background: url(../img/arrow02.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.inverse {
+	background: url(../img/arrow01grey.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.link:hover .arrow {
+	background: url(../img/arrow01grey.png);
+	background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.link:hover .inverse {
+	background: url(../img/arrow01.png);
+	background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.link:hover .thin {
+	background: url(../img/arrow02grey.png);
+	background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+h1 {
+	display: inline-block;
+	color: #FFF;
+	font-size: 1.6em
+}
+
+p {
+	display: inline-block;
+	color: #FFF;
+	font-size: 1.1em;
+	padding: 20px;
+	margin:0;
+}
+
+.link:hover p {
+	color: #3f4042;
+}
+
+.link:hover p.grey {
+	color: #FFF;
+}
+
+.link:hover arrow {
+
+}
+
+.left {
+	float:left;
+	margin-left: 15px;
+}
+
+.right {
+	float:right;
+	margin-right: 15px;
+}
+
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.col-md-4, .col-md-6, .col-md-12 {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.little {
+	position: relative;
+	height: 250px;
+	display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.little-spec {
+	position: relative;
+	height: 247px;
+	display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.big {
+	position: relative;
+	height: 500px;
+	display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.m-right {
+	margin-right: 6px;
+}
+
+.m-right-spec {
+	margin-right: 3px;
+}
+
+.m-left-spec {
+	margin-left: 3px;
+}
+
+.m-bot {
+	margin-bottom: 6px;
+}
+
+.m-top {
+	margin-top: 6px;
+}
+
+.img-center {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.link {
+    position:absolute;
+    bottom:0px;
+    left:0px;  
+    width:100%;  
+    height: 60px;
+    color:white;
+    font-weight: 600;
+}
+
+.grey {
+	color: #3f4042;  
+	font-weight: 600;
+}
+
+@media (max-width: 991px) {
+	.m-right {
+	margin-right: 0;
+	}
+
+	.m-right-spec {
+	margin-right: 0;
+	}
+
+	.m-left-spec {
+	margin-left: 0;
+	}
+
+	.m-bot {
+	margin-bottom: 0;
+	}
+
+	.m-top {
+	margin-top: 0;
+	}
+
+	.col-md-4, .col-md-6, .col-md-12, header {
+	margin-bottom: 6px;
+}
+}
+
