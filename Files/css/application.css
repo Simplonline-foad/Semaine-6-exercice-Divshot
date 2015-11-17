@@ -17,6 +17,11 @@ header {
 	float:left;
 }
 
+.container-fluid {
+	padding-right: 0;
+    padding-left: 0;
+}
+
 .arrow {
 	display: inline-block;
 	float: right;
