@@ -102,6 +102,11 @@ p {
     margin:0;
 }
 
+.grey {
+    color: #3f4042;  
+    font-weight: 600;
+}
+
 .link:hover p {
     color: #3f4042;
 }
@@ -164,11 +169,6 @@ p {
     width:100%;  
     height: 60px;
     color:white;
-    font-weight: 600;
-}
-
-.grey {
-    color: #3f4042;  
     font-weight: 600;
 }
 
