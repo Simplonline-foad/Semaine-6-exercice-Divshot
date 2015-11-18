@@ -1,152 +1,161 @@
+/* General */
+
 html, body {
-	background-color: #3f4042;
-	height: 100%;
-	overflow-x: hidden;
+    background-color: #3f4042;
+    height: 100%;
+    overflow-x: hidden;
 }
 
+/* Header */
+
 header {
-	background-color: #37bbd2;
-	height: 100px;
-	margin-bottom: 3px;
+    background-color: #37bbd2;
+    height: 100px;
+    margin-bottom: 3px;
 }
 
 .title {
-	padding: 20px;
+    padding: 20px;
 }
 
 .img-header {
-	width: 60px;
-	float:left;
+    width: 60px;
+    float:left;
 }
 
+.left {
+    float:left;
+    margin-left: 15px;
+}
+
+.right {
+    float:right;
+    margin-right: 15px;
+}
+
+/* Container */
+
 .container-fluid {
-	padding-right: 0;
+    padding-right: 0;
     padding-left: 0;
     margin-left:-4px;
     margin-right:-4px;
 }
 
-.arrow {
-	display: inline-block;
-	float: right;
-	margin-right: 15px;
-	margin-top: 24px;
-	width: 15px;
-	height: 15px;
+/* Flêches */
 
+.arrow {
+    display: inline-block;
+    float: right;
+    margin-right: 15px;
+    margin-top: 24px;
+    width: 15px;
+    height: 15px;
     background: url(../img/arrow01.png);
     background-size: 15px 15px;
     background-repeat: no-repeat;
 }
 
 .thin {
-	background: url(../img/arrow02.png);
+    background: url(../img/arrow02.png);
     background-size: 15px 15px;
     background-repeat: no-repeat;
 }
 
 .inverse {
-	background: url(../img/arrow01grey.png);
+    background: url(../img/arrow01grey.png);
     background-size: 15px 15px;
     background-repeat: no-repeat;
 }
 
 .link:hover .arrow {
-	background: url(../img/arrow01grey.png);
-	background-size: 15px 15px;
+    background: url(../img/arrow01grey.png);
+    background-size: 15px 15px;
     background-repeat: no-repeat;
 }
 
 .link:hover .inverse {
-	background: url(../img/arrow01.png);
-	background-size: 15px 15px;
+    background: url(../img/arrow01.png);
+    background-size: 15px 15px;
     background-repeat: no-repeat;
 }
 
 .link:hover .thin {
-	background: url(../img/arrow02grey.png);
-	background-size: 15px 15px;
+    background: url(../img/arrow02grey.png);
+    background-size: 15px 15px;
     background-repeat: no-repeat;
 }
 
+/* Textes */
+
 h1 {
-	display: inline-block;
-	color: #FFF;
-	font-size: 1.6em
+    display: inline-block;
+    color: #FFF;
+    font-size: 1.6em
 }
 
 p {
-	display: inline-block;
-	color: #FFF;
-	font-size: 1.1em;
-	padding: 20px;
-	margin:0;
+    display: inline-block;
+    color: #FFF;
+    font-size: 1.1em;
+    padding: 20px;
+    margin:0;
 }
 
 .link:hover p {
-	color: #3f4042;
+    color: #3f4042;
 }
 
 .link:hover p.grey {
-	color: #FFF;
-}
-
-.link:hover arrow {
-
-}
-
-.left {
-	float:left;
-	margin-left: 15px;
-}
-
-.right {
-	float:right;
-	margin-right: 15px;
+    color: #FFF;
 }
 
 .row {
-	margin-right: 0;
-	margin-left: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .col-md-4, .col-md-6, .col-md-12 {
-	padding-right: 0;
-	padding-left: 0;
+    padding-right: 0;
+    padding-left: 0;
 }
 
+/* Vignettes */
+
 .little {
-	position: relative;
-	height: 250px;
-	display: flex;
+    position: relative;
+    height: 250px;
+    display: flex;
     align-items: center;
     padding-bottom: 60px;
     margin:3px;
 }
 
 .little-spec {
-	position: relative;
-	height: 247px;
-	display: flex;
+    position: relative;
+    height: 247px;
+    display: flex;
     align-items: center;
     padding-bottom: 60px;
     margin:3px;
 }
 
 .big {
-	position: relative;
-	height: 500px;
-	display: flex;
+    position: relative;
+    height: 500px;
+    display: flex;
     align-items: center;
     padding-bottom: 60px;
     margin:3px;
 }
 
 .img-center {
-	display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto
 }
+
+/* Liens des vignettes */
 
 .link {
     position:absolute;
@@ -159,16 +168,18 @@ p {
 }
 
 .grey {
-	color: #3f4042;  
-	font-weight: 600;
+    color: #3f4042;  
+    font-weight: 600;
 }
 
-@media (max-width: 991px) {
-	.col-md-4, .col-md-6, .col-md-12, header {
-		margin-bottom: 3px;
-	}
+/* Responsive */
 
-	.little, .little-spec, .big {
-		margin-bottom: 6px;
-	}
+@media (max-width: 991px) {
+    .col-md-4, .col-md-6, .col-md-12, header {
+        margin-bottom: 3px;
+    }
+
+    .little, .little-spec, .big {
+        margin-bottom: 6px;
+    }
 }
